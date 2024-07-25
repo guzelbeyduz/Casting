@@ -1,21 +1,21 @@
-# 1. String dönüşümü
+
 int_deger = 123
 int_to_string = str(int_deger)
 print(f"{int_deger} sayısının string dönüşümü: {int_to_string}")
 print(f"Dönüşüm sonrası tip: {type(int_to_string)}")
 
-# 2. Float dönüşümü
+
 int_to_float = float(int_deger)
 print(f"{int_deger} sayısının float dönüşümü: {int_to_float}")
 print(f"Dönüşüm sonrası tip: {type(int_to_float)}")
 
-# 3. Int dönüşümü
+
 float_deger = 123.45
 float_to_int = int(float_deger)
 print(f"{float_deger} sayısının int dönüşümü: {float_to_int}")
 print(f"Dönüşüm sonrası tip: {type(float_to_int)}")
 
-# 4. String'den Int Dönüşümü
+
 string_deger = "456"
 str_to_int = int(string_deger)
 print(f"{string_deger} sayısının int dönüşümü: {str_to_int}")
